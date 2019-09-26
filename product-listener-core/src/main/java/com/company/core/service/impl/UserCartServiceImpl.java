@@ -29,7 +29,7 @@ public class UserCartServiceImpl implements UserCartService {
         LOG.info("Item added to user cart");
     }
 
-    @Override // Get Products in User's card by userID
+    @Override // Get Products in User's cart by userID
     public List<UserCart> getUserCart(String userId){
       return userCartRepository.findByUserId(userId);
     };
