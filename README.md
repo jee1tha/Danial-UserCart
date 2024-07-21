@@ -1,4 +1,4 @@
-# Danial-UserCart
+# UserCart
 Application is built using Maven,
  Springboot version 1.5.7.RELEASE
  H2 Version 1.4.196
